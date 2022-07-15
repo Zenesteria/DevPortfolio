@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
 
 html,
 body {
@@ -22,6 +22,11 @@ a {
   font-family: 'Raleway',sans-serif;
   transition: .1s;
   scroll-behavior: smooth;
+}
+
+
+.styleText{
+  font-family: 'Rubik Moonrocks', cursive;
 }
 
 
