@@ -21,7 +21,7 @@ export default function Navbar() {
                <SwitchTheme/>
             </ul>
 
-            <FaBars className='flex lg:hidden'/>
+            <FaBars className='flex cursor-pointer lg:hidden'/>
         </div>
     </div>
   )
