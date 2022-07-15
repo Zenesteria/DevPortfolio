@@ -13,7 +13,7 @@ export default function Home() {
       {/* First Layer */}
       
       <div className={styles.firstLayer}>
-          <h1>THIS IS THE FIRST LAYER</h1>
+          <h1 className='text-white'>THIS IS THE FIRST LAYER</h1>
       </div>
 
       {/* Second Layer */}
