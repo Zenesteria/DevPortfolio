@@ -21,7 +21,7 @@ a {
   box-sizing: border-box;
   font-family: 'Raleway',sans-serif;
   transition: .1s;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 
