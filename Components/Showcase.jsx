@@ -11,7 +11,8 @@ export default function Showcase() {
           </div>
           
           <div className="flex items-center justify-end flex-1 h-screen bg-cyan-400 dark:bg-transparent">
-                <div className="flex flex-col items-center justify-center w-[65%] mr-[5vw]" style={{aspectRatio:'1/1'}}>
+                <div className="flex flex-col items-center justify-center relative w-[65%] mr-[5vw]" style={{aspectRatio:'1/0.7'}}>
+                    <div className="absolute top-0 left-0 rotate-[-3deg] shadowsTxt" style={{fontSize:'calc(0.8rem + 0.5vw)'}}>👋{"Hi, I'm arhyel"}</div>
                     <h1 className='text-[3.3rem] rubikTxt'>
                       I like making <span className='outlineTxt'>fun</span>, interactive things with code. I also <span className='outlineTxt'>talk</span> & <span className='outlineTxt'>write</span> about those things.
                     </h1>

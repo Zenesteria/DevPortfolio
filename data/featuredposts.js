@@ -5,8 +5,8 @@ module.exports = [
         link:'#',
         cat:'Blog',
         pos:{
-            x:'5',
-            y:'30'
+            x:'10',
+            y:'25'
         }
     },
     {
@@ -15,7 +15,7 @@ module.exports = [
         link:'#',
         cat:'Blog',
         pos:{
-            x:'50',
+            x:'60',
             y:'10'
         }
     },
@@ -25,8 +25,8 @@ module.exports = [
         link:'#',
         cat:'Blog',
         pos:{
-            x:'40',
-            y:'50'
+            x:'50',
+            y:'45'
         }
     },
 ]

@@ -1,5 +1,6 @@
 import React from 'react'
 import featuredposts from '../data/featuredposts' 
+import CustomLinkA from './CustomLinkA'
 import InfoCard from './InfoCard'
 
 
@@ -11,7 +12,7 @@ export default function SectionA() {
     }
   ]
   return (
-    <div className='relative w-full h-fit min-h-screen p-[10vw] overflow-hidden'>
+    <div className='relative w-full h-fit min-h-[130vh] p-[10vw] overflow-hidden bg-[rgb(54,72,107)]'>
         <h1 className='font-black tracking-wider' style={{fontSize:'calc(1.5rem + 2vw)'}}>
             Writing.
         </h1>
@@ -27,6 +28,11 @@ export default function SectionA() {
                   />
                 )
         })}
+
+        <CustomLinkA
+          txt={'Read more. . .'}
+          link={'#'}
+        />
     </div>
   )
 }
