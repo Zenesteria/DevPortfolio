@@ -37,10 +37,10 @@ export default function SectionB() {
                     cat={data.cat}
                     title={data.title}
                 >
-                    {data.body.map((txt) => {
+                    {data.body.map((txt, i) => {
                         return (
                             <>
-                                <p key={index}>{txt}</p> <br/>
+                                <p key={i}>{txt}</p> <br/>
                             </>
                         )
                     })}
