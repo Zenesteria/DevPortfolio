@@ -7,7 +7,7 @@ export default function InfoCard({title, cat, txt, link, pos}) {
         // moveEle()
     })
   return (
-    <div data-move="object" className='absolute w-fit max-w-[450px] min-w-[250px] h-fit min-h-[200px] border-2 border-white rounded-2xl transition-none' style={{top:`${pos.y}%`,left:`${pos.x}%`}}>
+    <div data-move="object" className='w-fit max-w-[450px] min-w-[330px] h-fit min-h-[200px] border-2 m-7 border-white rounded-2xl transition-none'>
         <div className="flex w-full h-fit p-2 border-b-2 border-white">
             <div className="bg-white rounded-full w-[15px] mx-2" style={{aspectRatio:'1/1'}}> </div>
             <div className="bg-white rounded-full w-[15px] mx-2" style={{aspectRatio:'1/1'}}> </div>

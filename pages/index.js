@@ -18,7 +18,7 @@ export default function Home() {
       
 
       {/* Second Layer */}
-      <PageLayerTwo/>
+      {/* <PageLayerTwo/> */}
     </div>
   )
 }

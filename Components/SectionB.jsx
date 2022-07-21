@@ -7,8 +7,8 @@ import hightlightData from '../data/hightlightData'
 export default function SectionB() {
   return (
     <div className='flex flex-col items-center justify-center w-full h-fit min-h-[50vh] py-[10vw] px-[15vw] bg-cyan-800 '>
-        <div className="flex justify-between items-center w-full h-fit min-h-[100px] p-4 mb-[4rem]">
-            <div className="flex flex-col justify-between max-w-[500px]" style={{aspectRatio:'1/0.65'}}>
+        <div className="flex justify-center lg:justify-between items-center flex-wrap w-full h-fit min-h-[100px] p-4 mb-[4rem]">
+            <div className="flex flex-col justify-between max-w-[500px] m-4" style={{aspectRatio:'1/0.65'}}>
                 <h1 className='font-black' style={{fontSize:'calc(2rem + 1.5vw)'}}>
                     Speaking.
                 </h1>
@@ -23,7 +23,7 @@ export default function SectionB() {
                     </a>
                 </Link>
             </div>
-            <div className="w-[25vw] relative whiteShadow z-[10]" style={{aspectRatio:'1.08/1'}}>
+            <div className="w-[25vw] relative whiteShadow z-[10] min-w-[330px]" style={{aspectRatio:'1.08/1'}}>
                 <Image src={'/img/speaker.jpg'} alt='Abdurrahman Adebisi Aderinto' layout='fill'/>
             </div>
         </div>
@@ -39,9 +39,9 @@ export default function SectionB() {
                 >
                     {data.body.map((txt, i) => {
                         return (
-                            <>
-                                <p key={i}>{txt}</p> <br/>
-                            </>
+                            <div key={i}>
+                                <p>{txt}</p> <br/>
+                            </div>
                         )
                     })}
                 </CustomHighlightA>
