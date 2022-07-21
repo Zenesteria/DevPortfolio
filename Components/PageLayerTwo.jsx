@@ -18,12 +18,12 @@ export default function PageLayerTwo() {
             <div className='flex '>
             <Link href={"https:twitter.com/Arhyel0"}>
               <a >
-             <FaTwitter/>
+                <FaTwitter/>
               </a>
             </Link>
             <Link href={"https://www.linkedin.com/in/arhyel-patrick-0660b8228/"}>
               <a >
-            <FaLinkedin />
+                <FaLinkedin />
               </a>
             </Link>
             </div>
