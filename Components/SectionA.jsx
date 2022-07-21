@@ -17,17 +17,19 @@ export default function SectionA() {
             Writing.
         </h1>
 
-        {featuredposts.map((post, index) => {
-                return (
-                  <InfoCard
-                    key={index}
-                    title={post.title}
-                    txt={post.body}
-                    link={post.link}
-                    pos={post.pos}
-                  />
-                )
-        })}
+        <div className="flex justify-center flex-wrap w-full h-fit">
+            {featuredposts.map((post, index) => {
+                    return (
+                      <InfoCard
+                        key={index}
+                        title={post.title}
+                        txt={post.body}
+                        link={post.link}
+                        pos={post.pos}
+                      />
+                    )
+            })}
+        </div>
 
         <CustomLinkA
           txt={'Read more. . .'}
