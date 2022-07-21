@@ -20,7 +20,7 @@ a {
 * {
   box-sizing: border-box;
   font-family: 'Raleway',sans-serif;
-  transition: .1s;
+  transition: 300ms;
   /* scroll-behavior: smooth; */
 }
 
